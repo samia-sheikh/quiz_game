@@ -1,0 +1,1 @@
+<img width="1367" height="2154" alt="screencapture-file-C-Users-DELL-Desktop-samia-github-quiz-game-Qiz-game-index-html-2025-09-22-10_15_23" src="https://github.com/user-attachments/assets/087d61b9-9945-4ed8-af85-80159fb9f6da" />
