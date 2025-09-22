@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Say No To Sugar Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+     <img src="./monogram.jpg" alt="Monogram" class="monogram">
+    <!-- Title stays on top -->
+    <h1>Say No To Sugar Quiz Game</h1>
+
+    <!-- Student Info Section -->
+    <div id="student-info">
+      <label>
+        Name: <input type="text" id="studentName" placeholder="Enter your name" />
+      </label>
+      <br /><br />
+      <label>
+        Grade: <input type="text" id="studentGrade" placeholder="Enter your grade" />
+      </label>
+      <br /><br />
+      <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quiz-section" style="display:none;">
+      <div id="quiz"></div>
+      <button id="submit" class="btn" style="display:none;">Submit</button>
+      <div id="result" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

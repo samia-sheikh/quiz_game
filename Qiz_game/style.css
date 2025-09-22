@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #00eaff, #a8ff78);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Yellow quiz box */
+.container {
+  max-width: 650px;
+  background-color: #fff44f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.monogram {
+  max-width: 250px;  /* never exceed this */
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Title on top */
+h1 {
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Questions with yellow background too */
+.question {
+  background: #fffb91; /* lighter yellow */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Options */
+.options {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.options label {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  margin: 15px 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#startBtn, #submit {
+  background-color: #28a745;
+  color: white;
+}
+
+#startBtn:hover, #submit:hover {
+  background-color: #218838;
+}
+
+#restartBtn {
+  background-color: #ff7043;
+  color: white;
+}
+
+#restartBtn:hover {
+  background-color: #e64a19;
+}
+
+/* Result text */
+#result {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
